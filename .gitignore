@@ -1,0 +1,15 @@
+.ipynb_checkpoints
+test_wrapper.ipynb
+
+.venv
+.idea
+
+build
+dist
+output
+*.egg-info
+
+embree_binary/linux
+embree_binary/windows
+
+check_list.txt
