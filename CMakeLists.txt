@@ -20,7 +20,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${OUTPUT_DIR})
 find_package(Python3 REQUIRED COMPONENTS Interpreter Development)
 find_package(pybind11 REQUIRED)
 
-set(EMBREE_ROOT_DIR ${CMAKE_CURRENT_SOURCE_DIR}/embree_binary/linux/embree-4.4.0.x86_64.linux)
+set(EMBREE_ROOT_DIR ${CMAKE_CURRENT_SOURCE_DIR}/embree_wrapper/linux/embree-4.4.0.x86_64.linux)
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/embree_wrapper/cmake")
 find_package(Embree REQUIRED)
 

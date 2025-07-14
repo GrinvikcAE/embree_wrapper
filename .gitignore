@@ -9,8 +9,6 @@ dist
 output
 *.egg-info
 embree_wrapper/embree_wrapper.so
-
-embree_binary/linux
-embree_binary/windows
+embree_wrapper/linux
 
 check_list.txt

@@ -63,8 +63,8 @@ setup(
     package_data={
         PROJECT_NAME: [
             LIB_NAME,
-            "embree_binary/linux/embree-4.4.0.x86_64.linux/lib/*",
-            "embree_binary/linux/embree-4.4.0.x86_64.linux/include/*",
+            "linux/embree-4.4.0.x86_64.linux/lib/*",
+            "linux/embree-4.4.0.x86_64.linux/include/*",
         ]
     },
 )
