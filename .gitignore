@@ -1,6 +1,3 @@
-.ipynb_checkpoints
-test_wrapper.ipynb
-
 .venv
 .idea
 
@@ -11,4 +8,8 @@ output
 embree_wrapper/embree_wrapper.so
 embree_wrapper/linux
 
+# For tests
+.ipynb_checkpoints
+test_wrapper.ipynb
 check_list.txt
+Dockerfile
